@@ -1,8 +1,7 @@
 import 'package:album_app/helper/db_helper.dart';
 import 'package:album_app/models/album.dart';
-// ignore: depend_on_referenced_packages
-import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'album_event.dart';
 part 'album_state.dart';

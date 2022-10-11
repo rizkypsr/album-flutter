@@ -20,28 +20,10 @@ class AlbumHasData extends AlbumState {
   List<Object> get props => [albums];
 }
 
-class AlbumError extends AlbumState {
-  final String message;
-
-  const AlbumError(this.message);
-
-  @override
-  List<Object> get props => [message];
-}
-
 class CreateSuccess extends AlbumState {
   final String message;
 
   const CreateSuccess(this.message);
-
-  @override
-  List<Object> get props => [message];
-}
-
-class CreateError extends AlbumState {
-  final String message;
-
-  const CreateError(this.message);
 
   @override
   List<Object> get props => [message];
